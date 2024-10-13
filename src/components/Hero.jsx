@@ -90,7 +90,9 @@ const Hero = () => {
             />
           </div>
 
-          <BackgroundCircles />
+          <ScrollParallax isAbsolutelyPositioned>
+            <BackgroundCircles />
+          </ScrollParallax>
         </div>
 
         <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
